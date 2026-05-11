@@ -33,10 +33,18 @@ docker logs pogodowka-container
 
 <img width="588" height="68" alt="brave_G994lIWxMp" src="https://github.com/user-attachments/assets/8a232e58-6ef7-4dc8-aaa0-95dc5aff6056" />
 
-### Sprawdzenie warstw zbudowanego obrazu oraz jego rozmiaru
+### Sprawdzenie rozmiaru obrazu
 
 ```
 docker images zadanie1-apka
 ```
 
 <img width="569" height="73" alt="brave_TkcccQrir4" src="https://github.com/user-attachments/assets/19fde5ad-4403-40ef-a055-a905caf768dc" />
+
+### Sprawdzenie warstw obrazu 
+
+```
+docker history zadanie1-apka
+```
+
+<img width="796" height="136" alt="image" src="https://github.com/user-attachments/assets/62f50bc7-fd5b-4c51-8c11-e3a40bbe9561" />
